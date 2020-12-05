@@ -1,6 +1,6 @@
 # Site checker
 Techtask for checking site statuses from 'Website-2020-12-03.xlsx' file.
-Checking runs every 15 minutes with celery in background
+Checking runs every 15 minutes with celery in background (configurable in `checker/settings.py` at `CELERY_BEAT_SCHEDULE`)
 
 # Packages
 * Django
