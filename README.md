@@ -11,4 +11,4 @@ Checking runs every 15 minutes with celery in background
 
 # How to run
 Run `docker-compose run django python manage.py migrate` and `docker-compose up`.
-Locate results at (localhost:8000/api/site_check/)
+Locate results [here](localhost:8000/api/site_check/)
